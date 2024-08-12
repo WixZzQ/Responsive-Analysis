@@ -89,7 +89,7 @@
                         r="36"></circle>
                     </svg>
                     <div class="percentage">
-                        <p>+81</p>
+                        <p>+81%</p>
                     </div>
                 </div>
             </div>
@@ -138,7 +138,7 @@
             <div class="user">
                 <img src="Images/Hot  man.jpeg" />
                 <h2>Jack</h2>
-                <p>58 Mins Ago</p>
+                <p>8 Mins Ago</p>
             </div>
             <div class="user">
                 <img src="Images/Koi Yamori.jpeg" />
@@ -153,12 +153,11 @@
             <div class="user">
                 <img src="Images/★ dandadan.jpeg" />
                 <h2>Ichigo</h2>
-                <p>50 Seconds Ago</p>
+                <p>5 Mins Ago</p>
             </div>
             <div class="user">
                 <img src="Images/plus.png" class="plus" />
-                <h2>Ichigo</h2>
-                <p>50 Seconds Ago</p>
+                <h2 style="font-size: 25px;">Add More</h2>
             </div>
         </div>
      </div>
@@ -179,10 +178,9 @@
         </thead>
         <tbody></tbody>
     </table>
-    <a href="#">Show All</a>
+    <a href="#" class="show-all">Show All</a>
 </div>
 <!-- End of Recent Orders-->
-
 </main>
 
 <!-- End of Main Content -->
@@ -207,10 +205,10 @@
 <div class="profile">
     <div class="info">
         <p>Hey, <b>Chicken!</b></p>
-        <small class="text-muted" style="margin-top: 4rem; ;">Admin</small>
+        <h3 class="text-muted" style="margin-top: -1.6rem; ;">Admin</h3>
     </div>
     <div class="profile-photo">
-        <img src="Images/64a09249-46f9-4342-a726-ef14e18146cc.jpeg" alt="Profile Photo">>
+        <img src="Images/64a09249-46f9-4342-a726-ef14e18146cc.jpeg" alt="Profile Photo">
         </div>
     </div>
 
@@ -227,14 +225,15 @@
 <div class="reminders">
     <div class="header">
         <h2>Reminders</h2>
-        <span class="material-icons-sharp"></span>
+        <span class="material-icons-sharp">
         <i class='bx bxs-bell'></i>
-        <a href="#">Clear All</a>
-    </div>
-
+    </span>
+</div>
     <div class="notification">
         <div class="icon">
+            <span class="material-icons-sharp">
             <i class='bx bx-volume-full' ></i>
+        </span>
         </div>
             <div class="content">
                 <div class="info">
@@ -243,15 +242,47 @@
                         Next workshop on 25th of January at 10:00 AM to 6:00 PM
                     </small>
                 </div>
-
+                <span class="material-icons-sharp">
+                <i class='bx bx-dots-vertical-rounded'></i>
+            </span>
             </div>
     </div>
 
+    <div class="notification deactive">
+        <div class="icon">
+            <span class="material-icons-sharp">
+            <i class='bx bx-edit-alt' ></i>
+        </span>
+        </div>
+            <div class="content">
+                <div class="info">
+                    <h3>Workshop</h3>
+                    <small class="text_muted">
+                        10:00 AM to 6:00 PM
+                    </small>
+                </div>
+                <span class="material-icons-sharp">
+                <i class='bx bx-dots-vertical-rounded'></i>
+            </span>
+            </div>
+    </div>
+
+     <div class="notification add-reminder">
+
+            <span class="material-icons-sharp">
+                <i class='bx bx-plus' style="font-size: 30px; margin-left: 0.9rem;"></i>
+        </span>
+        <h3 style="margin-right: 20px; margin-bottom: 2px;">Add Reminder</h3>
+    </div>
+    
 </div>
 
 </div>
 
 </div>
+
+
+
     <script src="https://kit.fontawesome.com/493883581e.js" crossorigin="anonymous"></script>
     <script src="orders.js"></script>
     <script src="index.js"></script>
